@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Phonebook App</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>My Phonebook</h1>
+        <input type="text" id="search" placeholder="Search by name or phone" />
+        <form id="contactForm">
+            <input type="hidden" id="contactId" />
+            <input type="text" id="name" placeholder="Enter name" required />
+            <input type="text" id="phone" placeholder="Enter phone number" required />
+            <button type="submit">Save Contact</button>
+        </form>
+        <ul id="contactList"></ul>
+    </div>
+    <script src="./js/style.js"></script>
+</body>
+
+</html>
